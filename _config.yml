@@ -1,0 +1,14 @@
+title: "Lecture on BioMedSem IR & KD"
+remote_theme: pmarsceill/just-the-docs
+logo: ./biomedsem_text.gif
+search_enabled: true
+aux_links:
+  "GitHub": "//github.com/zbmed-semtec/BioMedSem-IR-KD"
+aux_links_new_tab: true
+footer_content: "Follow us on twitter @ZB_MED"
+
+
+description: "Lecture on Biomedical Semantics, Information Retrieval & Knowledge Discovery"
+twitter_username: zb_med
+github_username:  ljgarcia
+email: ljgarcia@zbmed.de
