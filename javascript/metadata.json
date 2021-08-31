@@ -1,0 +1,64 @@
+{
+  "contextTM": {
+    "@context": "https://schema.org",
+    "dc:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/0.9-DRAFT-2020_12_08/", 
+    "@type": "LearningResource",
+  },
+
+  "common": {
+    "about": [
+      {
+        "@type": "DefinedTerm", 
+        "@id": "http://edamontology.org/topic_0091",
+        "inDefinedTermSet": "http://edamontology.org",
+        "termCode": "topic_0091",
+        "name": "Bioinformatics",
+        "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic_0091"
+      }, {
+        "@type": "DefinedTerm", 
+        "@id": "http://edamontology.org/topic_3063",
+        "inDefinedTermSet": "http://edamontology.org",
+        "termCode": "topic_3063",
+        "name": "Medical informatics",
+        "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic_3063"
+      }, {
+        "@type": "DefinedTerm", 
+        "@id": "http://edamontology.org/topic_0089",
+        "inDefinedTermSet": "http://edamontology.org",
+        "termCode": "topic_0089",
+        "name": "Ontology and terminology",
+        "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Ftopic_0089"
+      }
+    ],
+    "audience": {
+      "@type": "Audience",
+      "audienceType": ["medical students", "postgraduates"]
+    },
+    "author": [
+      {
+          "@type": "Person",
+          "name": "Dietrich Rebholz-Schuhmann"
+      },
+      {
+          "@type": "Person",
+          "name": "Leyla Jael Castro",
+          "email": "ljgarcia@zbmed.de"
+      }
+    ],
+    "educationalLeve": "beginner",
+    "inLanguage": "en",
+    "learningResourceType": ["presentation", "video-lecture"],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "dateCreated": "2020-08-31",
+    "version": "1.0"
+    },
+
+  "lesson1": {
+    "@id": "https://doi.org/",
+    "name": "",
+    "keywords": "",
+    "description": "",
+    "teaches": []
+  } 
+
+}

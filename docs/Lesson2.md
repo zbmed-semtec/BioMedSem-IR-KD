@@ -5,9 +5,11 @@ nav_order: 20
 ---
 
 <link type="text/css" rel="stylesheet" href="../style/main.css" />
-<script src="../javascript/toggle.js"></script>
+<script src="../javascript/util.js"></script>
 
-# Semantic Web and Controlled Vocabularies
+# Introduction
+
+<div id='bms_infobox'></div>
 
 ## Resources
 * [PDF]
@@ -24,4 +26,19 @@ What are the main specifications used in the Resource Description Framework as a
 <div class='bms_answer' id='bmsqa1data' markdown='1'>
     RDF syntax (rdf), RDF Schema (rdfs) and XSD (xsd)
 </div>
+
+<script  type="text/javascript">
+    let info = { 
+        "name": 'Introduction', 
+        "keywords": ['Semantic Web', 'Life Sciences'], 
+        "description": 'This lesson will introduce the subject of semantics and show how it plays an important role in life sciences, all illustrated with practical examples', 
+        "teaches": ['Understanding what semantics is about'
+            , 'Understanding why semantics is needed to use data in the life sciences'
+            , 'Understanding the difference between analyzing data with statistics and using semantics in addition' 
+            , 'Listing some examples, where semantics is applied to deal with data in the life science domain, e.g. in medicine'
+        ]
+    }; 
+    addMetadata(info);
+    addInfoBox(info);
+</script>
 
