@@ -1,0 +1,111 @@
+---
+layout: default
+---
+
+<link type="text/css" rel="stylesheet" href="../style/main.css" />
+
+<h1>{{ page.lesson.name }}</h1>
+
+<div id="bms_infobox">
+  <ul>
+    {% if page.lesson.doi %}
+    <li><strong>DOI: </strong><a href="htmls://doi.org/{{ page.lesson.doi }}">{{ page.lesson.doi }}</a></li>
+    {% endif %}
+    <li><strong>Lesson title: </strong>{{ page.lesson.name }}</li>
+    <li><strong>Keywords: </strong>{{ page.lesson.keywords }}</li>
+    <li><strong>Objective/Description: </strong>{{ page.lesson.description }}</li>
+    <li>
+      <span><strong>Learning outcomes: </strong></span>
+      <ul>
+        {% for outcome in page.lesson.teaches %}
+        <li>{{ outcome | remove: "'" }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<h2>Resources</h2>
+<ul>
+  <li><a href="{{ page.resources.pdf }}">PDF</a></li>
+  <li><a href="{{ page.resources.video }}">Video</a></li>
+</ul>
+
+
+<h2>Questions and answers</h2>
+
+<p>
+  Q&A for those following the lessons on their own or enrolled in a regular university course. Thess Q&A aim to validate a basic understanding of concepts discussed during the lecture; the use of such concepts is beyond the scope of this study set. 
+</p>
+
+{% for qanda in page.quizz %}
+<label class="bms_question" id="bmsqa{{ forloop.index }}" onclick="toggle('bmsqa{{ forloop.index }}')">+ Show</label>
+{{ qanda.question }}
+<div class='bms_answer' id='bmsqa{{ forloop.index }}data' markdown='1'>
+  {% for answer in qanda.answer %}
+  {{ answer }} </br>
+  {% endfor %}
+</div>
+</br>
+{% endfor %}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "dc:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/0.9-DRAFT-2020_12_08/", 
+    "@type": "LearningResource",
+  
+    "about": [
+      {
+        "@type": "DefinedTerm", 
+        "@id": "http://edamontology.org/topic_0091",
+        "inDefinedTermSet": "http://edamontology.org",
+        "termCode": "topic_0091",
+        "name": "Bioinformatics",
+        "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http://edamontology.org/topic_0091"
+      }, {
+        "@type": "DefinedTerm", 
+        "@id": "http://edamontology.org/topic_3063",
+        "inDefinedTermSet": "http://edamontology.org",
+        "termCode": "topic_3063",
+        "name": "Medical informatics",
+        "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http://edamontology.org/topic_3063"
+      }, {
+        "@type": "DefinedTerm", 
+        "@id": "http://edamontology.org/topic_0089",
+        "inDefinedTermSet": "http://edamontology.org",
+        "termCode": "topic_0089",
+        "name": "Ontology and terminology",
+        "url": "https://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http://edamontology.org/topic_0089"
+      }
+    ],
+    "audience": {
+      "@type": "Audience",
+      "audienceType": ["medical students", "postgraduates"]
+    },
+    "author": [
+      {
+          "@type": "Person",
+          "name": "Dietrich Rebholz-Schuhmann"
+      },
+      {
+          "@type": "Person",
+          "name": "Leyla Jael Castro",
+          "email": "ljgarcia@zbmed.de"
+      }
+    ],
+    "educationalLeve": "beginner",
+    "inLanguage": "en",
+    "learningResourceType": ["presentation", "video-lecture"],
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "dateCreated": "2020-08-31",
+    "version": "1.0",
+  
+    "name": "{{ page.lesson.name }}",
+    "keywords": "{{ page.lesson.keywords }}",
+    "description": "{{ page.lesson.description }}",
+    "teaches": [
+      {{ page.lesson.teaches | join: ","}}
+    ]
+  };  
+</script>

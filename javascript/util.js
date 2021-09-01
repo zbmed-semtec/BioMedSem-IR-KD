@@ -90,7 +90,7 @@ function addMetadata(info) {
 }
 
 function addInfoBox(info) {
-  listElement = document.createElement('ul');
+  var listElement = document.createElement('ul');
   document.getElementById('bms_infobox').appendChild(listElement);
   if (info.doi) {
     createListElem(listElement, '<strong>DOI: </strong>', info.doi);
@@ -99,16 +99,29 @@ function addInfoBox(info) {
   createListElem(listElement, '<strong>Keywords: </strong>', info.keywords);
   createListElem(listElement, '<strong>Objective/Description: </strong>', info.description);
   if (info.teaches && (info.teaches.length != 0) ) {
-    createListElem(listElement, '<strong>Learning outcomes: </strong>', info.teaches);
+    createListElem(listElement, '<strong>Learning outcomes: </strong>', info.teaches, true);
   }
 }
 
-function createListElem(listElement, subtitle, text) {
-  listItem = document.createElement('li');
+function createListElem(ulEl, subtitle, text, withSublist) {
+  var listItem = document.createElement('li');
+
   if (Array.isArray(text) && (text.length != 0)) {
-    listItem.innerHTML = subtitle + text.join('; ');
+    if (withSublist) {
+      var subtitleEl = document.createElement('span');
+      subtitleEl.innerHTML = subtitle;
+      listItem.appendChild(subtitleEl);
+
+      var sublistEl = document.createElement('ul');
+      listItem.appendChild(sublistEl);
+      text.forEach( el =>  createListElem(sublistEl, '', el) );
+    } else {
+      listItem.innerHTML = subtitle + text.join('; ');
+    }    
   } else {
     listItem.innerHTML = subtitle + text;
   }
-  listElement.appendChild(listItem);
+
+  ulEl.appendChild(listItem);
 }
+
