@@ -3,6 +3,7 @@ layout: default
 ---
 
 <link type="text/css" rel="stylesheet" href="../style/main.css" />
+<script src="../javascript/util.js"></script>
 
 <h1>{{ page.lesson.name }}</h1>
 
@@ -18,7 +19,7 @@ layout: default
       <span><strong>Learning outcomes: </strong></span>
       <ul>
         {% for outcome in page.lesson.teaches %}
-        <li>{{ outcome | remove: "'" }}</li>
+        <li>{{ outcome | remove: '"' }}</li>
         {% endfor %}
       </ul>
     </li>
@@ -35,10 +36,12 @@ layout: default
 <h2>Questions and answers</h2>
 
 <p>
-  Q&A for those following the lessons on their own or enrolled in a regular university course. Thess Q&A aim to validate a basic understanding of concepts discussed during the lecture; the use of such concepts is beyond the scope of this study set. 
+  These Q&A aim to validate a basic understanding of concepts discussed during the lecture. 
+  The use of such concepts is beyond the scope of this Q&Astudy set as it is addressed via projects and hands-on for those enrolled in the corresponding university course. 
 </p>
 
 {% for qanda in page.quizz %}
+<p>
 <label class="bms_question" id="bmsqa{{ forloop.index }}" onclick="toggle('bmsqa{{ forloop.index }}')">+ Show</label>
 {{ qanda.question }}
 <div class='bms_answer' id='bmsqa{{ forloop.index }}data' markdown='1'>
@@ -46,7 +49,7 @@ layout: default
   {{ answer }} </br>
   {% endfor %}
 </div>
-</br>
+</p>
 {% endfor %}
 
 <script type="application/ld+json">
