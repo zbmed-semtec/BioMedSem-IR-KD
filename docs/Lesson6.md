@@ -16,7 +16,7 @@ lesson:
         - '"Creating basic Regular Expressions"'
 
 resources:
-    "pdf": '#pdf'
+    "pdf": '../lectures/Lesson-06-SemWeb-URI.pdf'
     "video": '#video'
 ---
 

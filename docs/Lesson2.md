@@ -14,7 +14,7 @@ lesson:
         - '"Explaining what an ontology is and describing its main characteristics and elements"'
 
 resources:
-    "pdf": '#pdf'
+    "pdf": '../lectures/Lesson-02-SemWeb-Terminologies.pdf'
     "video": '#video'
 
 ---

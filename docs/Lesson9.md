@@ -14,7 +14,7 @@ lesson:
         - '"Comparing RDF vs RDF-Schema"'
 
 resources:
-    "pdf": '#pdf'
+    "pdf": '../lectures/Lesson-09-SemWeb-RDFS.pdf'
     "video": '#video'
 
 quizz:

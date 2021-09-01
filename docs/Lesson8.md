@@ -17,7 +17,7 @@ lesson:
         - '"Explaining how graph representations can be separated into RDF triples"'
 
 resources:
-    "pdf": '#pdf'
+    "pdf": '../lectures/Lesson-08-SemWeb-RDF.pdf'
     "video": '#video'
 
 quizz:

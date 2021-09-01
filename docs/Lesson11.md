@@ -14,6 +14,6 @@ lesson:
         - '"Comparing SPARQL queries as different possibilities can be used to answer the same question"'
 
 resources:
-    "pdf": '#pdf'
+    "pdf": '../lectures/Lesson-11-SemWeb-SPARQL.pdf'
     "video": '#video'
 ---
