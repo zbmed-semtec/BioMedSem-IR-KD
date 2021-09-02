@@ -16,5 +16,27 @@ lesson:
 resources:
     "pdf": '#pdf'
     "video": '#video'
+
+quizz:
+    - "question": 'What is a graph?'
+      "answer":   
+        - 'A graph is a structure consisting of nodes and edges (which connect nodes to each other)'
+
+    - "question": 'What is an acyclic graph?'
+      "answer":   
+        - 'A graph where there is no path from any node to itself'
+        - 'Example A - B, B - C'
+
+    - "question": 'What is a cyclic graph?'
+      "answer":   
+        - 'A graph where there is at least one path from one of its nodes to itself'
+        - 'Example A - B, B - C, C - A (cyclic path would be A - B - C - A)'
+        
+    - "question": 'What are some examples of graphs?'
+      "answer":   
+        - 'A metro (aka tube or undergraound) network'
+        - 'An organigram'
+        - 'The tree of life'
+
 ---
 

@@ -18,5 +18,10 @@ lesson:
 resources:
     "pdf": '../lectures/Lesson-06-SemWeb-URI.pdf'
     "video": '#video'
+
+quizz:
+    - "question": ''
+      "answer":   
+        - ''    
 ---
 

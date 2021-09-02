@@ -17,4 +17,9 @@ lesson:
 resources:
     "pdf": '#pdf'
     "video": '#video'
+
+quizz:
+    - "question": ''
+      "answer":   
+        - ''
 ---
