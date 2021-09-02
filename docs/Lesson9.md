@@ -20,23 +20,23 @@ resources:
 quizz:
     - "question": What would be a key difference between RDF syntax and RDF schema?
       "answer":  
-        - 'RDF syntax works with statements while RDF schema introduces classes, useful for creating vocabularies and later for data validation and reasoning'
+        - 'RDF syntax works with statements while RDF schema introduces classes, useful for creating vocabularies and later for data validation and reasoning.'
 
     - "question": What are some of the different formats/notations/serialization of RDF?
       "answer":  
-         - 'RDF/XML, Turtle, N3, JSON-LD'
+         - 'RDF/XML, Turtle, N3, JSON-LD.'
 
     - "question": What are the collections supported in RDF/RDF-schema?
       "answer":  
-        - 'Sequences (order matters), bags (order does not matter) and alternatives (one of many). Lists are also possible (but no part of the rdfs:Container family) and ad-hoc collections (via rdf:parseType="Collection")'
+        - 'Sequences (order matters), bags (order does not matter) and alternatives (one of many). Lists are also possible (but no part of the rdfs:Container family) and ad-hoc collections (via rdf:parseType="Collection").'
 
     - "question": What are the main elements in RDF/RDF-schema when creating vocabularies?
       "answer":  
-        - 'Classes rdfs:Class, rdf:Property, rdfs:DataType, rdfs:Literal together with properties rdf:type, rdf:partOf, rdf:subClassOf and rdf:subPropertyOf'
+        - 'Classes rdfs:Class, rdf:Property, rdfs:DataType, rdfs:Literal together with properties rdf:type, rdf:partOf, rdf:subClassOf and rdf:subPropertyOf.'
 
     - "question": What is a blank node?
       "answer":  
-        - 'Entities or concepts with no URI as identifier but a local one (they can only be locally referenced)'
+        - 'Entities or concepts with no URI as identifier but a local one (they can only be locally referenced).'
 
     - "question": Which are the 5 stars by Sir Tim Berners Lee?
       "answer":  
