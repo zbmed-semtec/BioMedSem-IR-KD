@@ -44,3 +44,15 @@ quizz:
         - 'They are useful to, for instance, find patterns along URIs.'   
 ---
 
+<div style="display: none;">
+    'Uniform Resource Identifiers (URI)'
+    'Identifier, PID, URI, IRI'
+    'In this lesson we will introduce namespaces and Uniform Resource Identifier (URIs) including their use, advantages and integration into XML. We will also discuss Regular Expressions as they will become useful in later lessons.'
+    
+        - '"Explaining the characteristics of URIs"'
+        - '"Using namespaces and stating their benefits"'
+        - '"Discussing why URIs and namespaces are needed"' 
+        - '"Illustrating via examples how URIs are used in XML docs"'
+        - '"Understanding the uses and advantages of Regular Expressions"'
+        - '"Creating basic Regular Expressions"'
+</div>

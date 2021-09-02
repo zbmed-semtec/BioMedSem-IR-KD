@@ -48,3 +48,13 @@ quizz:
 
 ---
 
+<div style="display: none;">
+    'XML'
+    'XML, XML validation DTD' 
+    'In this lesson we will discuss about data formats on the Web, particularly XML and its validation via DTDs.' 
+    
+        - '"Explaining how XML formatting is used to represent data, e.g., from sets or graphs"'
+        - '"Explaining the different elements of XML formatting"'
+        - '"Assembling data in XML formats and distinguishing different approaches"' 
+        - '"Judging the limitations of XML"'
+</div>

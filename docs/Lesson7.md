@@ -39,3 +39,15 @@ quizz:
       - 'XSD validation can refer to ennumerations of the types above.'
 
 ---
+
+<div style="display: none;">
+    'XML Schema' 
+    'XML, XML schema, XML validation'
+    'In this lesson we will present XML Schema XSD, which allows to formally describe XML elements and  makes it possible to verify XML documents beyond the capabilities offered by DTDs'
+     
+        - '"Explaining how an XML Schema adds value to XML formatting"'
+        - '"Explaining the different elements of XML formatting using XML Schema"'
+        - '"Analyzing XML data with the help of XML schema for the purpose of XML data validation"' 
+        - '"Assembling data in XML formats and shape the appropriate XML Schema"'
+        - '"Judging the limitations of XML Schema for the representation of data"'
+</div>

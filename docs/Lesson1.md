@@ -67,3 +67,13 @@ quizz:
 ---
 
 
+<div style="display: none;">
+    'Introduction'
+    'Semantic Web, Life Sciences'
+    'In this lesson we will introduce the subject of semantics and show how it plays an important role in life sciences, all illustrated with practical examples.' 
+     
+        - '"Understanding what semantics is about"'
+        - '"Understanding why semantics is needed to use data in the life sciences"'
+        - '"Understanding the difference between analyzing data with statistics and using semantics in addition"'
+        - '"Listing some examples, where semantics is applied to deal with data in the life science domain, e.g. in medicine"'
+</div>

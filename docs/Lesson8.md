@@ -58,4 +58,16 @@ quizz:
         - 'In general, any sort of string. rdf:Literal can be combined with XSD to express dates, numbers and so.'
 ---
 
-
+<div style="display: none;">
+    'Resource Description Framework RDF' 
+    'RDF, RDF vocabularies, RDF serialization' 
+    'In this lesson we will introduce RDF and name some advantages and disadvantages, all of it illustrated by practical examples' 
+     
+        - '"Stating what the Resource Description Framework is about"'
+        - '"Explaining the main elements in RDF"'
+        - '"Illustrating via diagrams the sort of statements that can be modelled with RDF"'
+        - '"Naming the different serializations for RDF graphs"'
+        - '"Naming different ways to syntactically validate RDF data"'
+        - '"Using RDF-XML serialization (and Turtle) to represent knowledge"'
+        - '"Explaining how graph representations can be separated into RDF triples"'
+</div>

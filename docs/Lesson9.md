@@ -47,5 +47,16 @@ quizz:
         - '***** link to others'
 ---
 
+<div style="display: none;">
+    'RDF Schema'
+    'RDF, RDF schema, Classes, Properties' 
+    'In this lesson we will continue our journey on RDF, introducing more elements from RDFS and deepening into the possibilities it offers'
+     
+        - '"Naming RDF-Schema elements such as classes, sequences or collections"'
+        - '"Using RDF-Schema to represent knowledge"'
+        - '"Contrasting the advantages and limitations of RDF-Schema"' 
+        - '"Comparing RDF vs RDF-Schema"'
+</div>
+
 
 

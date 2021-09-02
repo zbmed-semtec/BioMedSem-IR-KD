@@ -45,3 +45,15 @@ quizz:
         - 'The Web Ontology Language, hast been introduced by the W3C as the standardfor the description of ontologies.'
 
 ---
+
+<div style="display: none;">
+    'Ontologies -- OWL' 
+    'Ontology, OWL' 
+    'In this lesson we will move towards stronger semantics support with the introduction to reasoning, ontologies and OWL --- the Web Ontology Language'
+     
+        - '"Explaining the different ways to use logics for drawing conclusions from facts (i.e. fact representations)"'
+        - '"Describing examples on conclusions that can be drawn from facts"'
+        - '"Explaining how the modus ponens is used to draw conclusions from existing data"' 
+        - '"Explaining the main elements in OWL for fact representations"'
+        - '"Explain the benefits given from OWL format standards in comparison to the RDF representation of data"'
+</div>

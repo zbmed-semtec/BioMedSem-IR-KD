@@ -51,3 +51,14 @@ quizz:
         - 'Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikivoyage, Wiktionary, Wikisource, and others (Wikidata).'
 
 ---
+
+<div style="display: none;">
+    'RDF - SPARQL' 
+    'SPARQL, Query language, endpoint' 
+    'In this lesson we will query the Semantic Web with SPARQL, we will show some examples and explain the different query elements'
+     
+        - '"Naming the elements part of a SPARQL query"'
+        - '"Explaining the relation between SPARQL and RDF / RDF-Schema"'
+        - '"Using SPARQL queries to retrieve data from RDF graphs"' 
+        - '"Comparing SPARQL queries as different possibilities can be used to answer the same question"'
+</div>
