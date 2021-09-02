@@ -19,8 +19,23 @@ resources:
     "video": '#video'
 
 quizz:
-  - "question": ''
+  - "question": 'Why do we need XML schema?'
     "answer":
-      - ''
+      - 'XML schema (XSD) allow us to manage more complex data in XML.'
+      - 'It validates not only tags and order (as DTD does) but can also validate content.'
+
+  - "question": 'What sort of things can you validate with XSD?'
+    "answer":
+      - 'Type of an attribute (simple types).'
+      - 'Default value of an attribute.'
+      - 'Mandatory, optional, alternate elements.'
+      - 'Length restrictions'
+      - 'Paterns via RegEx can be used for validation'
+      - 'Nested elements (complex types).'      
+
+  - "question": 'What is a simple type?'
+    "answer":
+      - 'Strings, numbers, dates, booleans.'
+      - 'XSD validation can refer to ennumerations of the types above.'
 
 ---
