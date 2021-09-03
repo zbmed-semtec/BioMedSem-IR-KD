@@ -59,6 +59,10 @@ layout: default
     "@context": "https://schema.org",
     "dc:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/0.9-DRAFT-2020_12_08/", 
     "@type": "LearningResource",
+
+    {% if page.lesson.doi %}
+    "@id": "htmls://doi.org/{{ page.lesson.doi }}"
+    {% endif %}
   
     "about": [
       {
@@ -103,7 +107,21 @@ layout: default
     "inLanguage": "en",
     "learningResourceType": ["presentation", "video-lecture"],
     "license": "https://creativecommons.org/licenses/by/4.0/",
-    "dateCreated": "2020-08-31",
+
+    {% if page.lesson.dateCreated %}
+    "dateCreated": "{{ page.lesson.dateCreated }}"
+    {% else %}
+    "dateCreated": "2020-12-19",
+    {% endif %}
+
+    {% if page.lesson.dateModfied %}
+    "dateCreated": "{{ page.lesson.dateModfied }}"
+    {% endif %}
+
+    {% if page.lesson.datePublished %}
+    "dateCreated": "{{ page.lesson.datePublished }}"
+    {% endif %}
+    
     "version": "1.0",
   
     "name": "{{ page.lesson.name }}",
