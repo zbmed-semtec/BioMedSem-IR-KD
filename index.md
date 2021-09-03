@@ -37,7 +37,7 @@ License: This material is distributed under [CC BY-NC](https://creativecommons.o
 
 If you reuse these materials or want to reference them, please use the following citation (also provided via a [CITATION](./CITATION.cff){:target="_blank"} file):
 
-Garcia Castro LJ., Rebholz-Schuhmann D (2020). Lecture on Biomedical semantics, information retrieval and knowledge discovery. 
+Castro LJ., Rebholz-Schuhmann D (2020). Lecture on Biomedical semantics, information retrieval and knowledge discovery. 
 
 ## Acknowledgements
 
