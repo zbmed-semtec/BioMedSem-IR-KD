@@ -3,3 +3,4 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 *.mp4
+Gemfile.lock
