@@ -57,7 +57,10 @@ layout: default
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "dc:conformsTo": "https://bioschemas.org/profiles/TrainingMaterial/0.9-DRAFT-2020_12_08/", 
+    "http://purl.org/dc/terms/conformsTo": {
+      "@id": "https://bioschemas.org/profiles/TrainingMaterial/1.0-RELEASE",
+      "@type": "CreativeWork"
+    }, 
     "@type": "LearningResource",
 
     {% if page.lesson.doi %}
